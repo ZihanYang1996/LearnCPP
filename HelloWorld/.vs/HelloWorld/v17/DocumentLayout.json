@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "E:\\Github\\LearnCPP\\HelloWorld\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7444ADD-1360-4823-B61F-55FF8B59E584}|HelloWorld.vcxproj|E:\\Github\\LearnCPP\\HelloWorld\\add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7444ADD-1360-4823-B61F-55FF8B59E584}|HelloWorld.vcxproj|solutionrelative:add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7444ADD-1360-4823-B61F-55FF8B59E584}|HelloWorld.vcxproj|E:\\Github\\LearnCPP\\HelloWorld\\Add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A7444ADD-1360-4823-B61F-55FF8B59E584}|HelloWorld.vcxproj|solutionrelative:Add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A7444ADD-1360-4823-B61F-55FF8B59E584}|HelloWorld.vcxproj|E:\\Github\\LearnCPP\\HelloWorld\\HelloWorld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A7444ADD-1360-4823-B61F-55FF8B59E584}|HelloWorld.vcxproj|solutionrelative:HelloWorld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "add.h",
+              "DocumentMoniker": "E:\\Github\\LearnCPP\\HelloWorld\\add.h",
+              "RelativeDocumentMoniker": "add.h",
+              "ToolTip": "E:\\Github\\LearnCPP\\HelloWorld\\add.h",
+              "RelativeToolTip": "add.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-01T17:31:12.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cpp",
+              "DocumentMoniker": "E:\\Github\\LearnCPP\\HelloWorld\\Add.cpp",
+              "RelativeDocumentMoniker": "Add.cpp",
+              "ToolTip": "E:\\Github\\LearnCPP\\HelloWorld\\Add.cpp",
+              "RelativeToolTip": "Add.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-01T16:26:19.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HelloWorld.cpp",
               "DocumentMoniker": "E:\\Github\\LearnCPP\\HelloWorld\\HelloWorld.cpp",
               "RelativeDocumentMoniker": "HelloWorld.cpp",
               "ToolTip": "E:\\Github\\LearnCPP\\HelloWorld\\HelloWorld.cpp",
               "RelativeToolTip": "HelloWorld.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-30T22:40:02.004Z",
               "EditorCaption": ""

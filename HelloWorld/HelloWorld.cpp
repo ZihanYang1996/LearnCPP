@@ -2,10 +2,33 @@
 //
 
 #include <iostream>
+#include "add.h" // include the header file
+
+//int add(int x, int y); // function in add.cpp
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	std::cout << "Hello World!\n";
+
+	int x{ 5 };
+	std::cout << "x = " << x << std::endl;
+
+	std::cout << "Enter a number: ";
+
+	int y{};
+	std::cin >> y;
+	std::cout << "You entered: " << y << '\n';
+
+	//int z;
+	//std::cout << z << std::endl;
+
+	int zz{};
+	std::cout << zz << std::endl;
+
+	std::cout << add(x, y) << std::endl;
+
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

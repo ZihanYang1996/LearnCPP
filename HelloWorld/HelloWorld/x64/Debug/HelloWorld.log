@@ -1,2 +1,10 @@
 ﻿  HelloWorld.cpp
+E:\Github\LearnCPP\HelloWorld\HelloWorld.cpp(69,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
+E:\Github\LearnCPP\HelloWorld\HelloWorld.cpp(70,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
+E:\Github\LearnCPP\HelloWorld\HelloWorld.cpp(71,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
+E:\Github\LearnCPP\HelloWorld\HelloWorld.cpp(72,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
+E:\Github\LearnCPP\HelloWorld\HelloWorld.cpp(73,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
+E:\Github\LearnCPP\HelloWorld\HelloWorld.cpp(74,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
+E:\Github\LearnCPP\HelloWorld\HelloWorld.cpp(75,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
+E:\Github\LearnCPP\HelloWorld\HelloWorld.cpp(76,6): warning C5051: attribute [[maybe_unused]] requires at least '/std:c++17'; ignored
   HelloWorld.vcxproj -> E:\Github\LearnCPP\HelloWorld\x64\Debug\HelloWorld.exe

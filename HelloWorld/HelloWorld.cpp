@@ -61,28 +61,52 @@
 //    return 0;
 //}
 
-#include <bitset>
+//#include <bitset>
+//#include <iostream>
+//
+//int main()
+//{
+//    [[maybe_unused]] constexpr int  isHungry{ 0 };
+//    [[maybe_unused]] constexpr int  isSad{ 1 };
+//    [[maybe_unused]] constexpr int  isMad{ 2 };
+//    [[maybe_unused]] constexpr int  isHappy{ 3 };
+//    [[maybe_unused]] constexpr int  isLaughing{ 4 };
+//    [[maybe_unused]] constexpr int  isAsleep{ 5 };
+//    [[maybe_unused]] constexpr int  isDead{ 6 };
+//    [[maybe_unused]] constexpr int  isCrying{ 7 };
+//
+//    std::bitset<8> me{ 0b0000'0101 }; // we need 8 bits, start with bit pattern 0000 0101
+//    me.set(isHappy);      // set bit position 3 to 1 (now we have 0000 1101)
+//    me.flip(isLaughing);  // flip bit 4 (now we have 0001 1101)
+//    me.reset(isLaughing); // set bit 4 back to 0 (now we have 0000 1101)
+//
+//    std::cout << "All the bits: " << me << '\n';
+//    std::cout << "I am happy: " << me.test(isHappy) << '\n';
+//    std::cout << "I am laughing: " << me.test(isLaughing) << '\n';
+//
+//    return 0;
+//}
+
+
 #include <iostream>
+#include <bitset>
 
 int main()
 {
-    [[maybe_unused]] constexpr int  isHungry{ 0 };
-    [[maybe_unused]] constexpr int  isSad{ 1 };
-    [[maybe_unused]] constexpr int  isMad{ 2 };
-    [[maybe_unused]] constexpr int  isHappy{ 3 };
-    [[maybe_unused]] constexpr int  isLaughing{ 4 };
-    [[maybe_unused]] constexpr int  isAsleep{ 5 };
-    [[maybe_unused]] constexpr int  isDead{ 6 };
-    [[maybe_unused]] constexpr int  isCrying{ 7 };
+	//std::bitset<4> bits{ 0b1100 };
+	//std::cout << "Initial Value: " << bits << '\n';
+	//std::cout << (bits >> 1) << '\n'; // shift right by 1
+	//std::cout << (bits << 1) << '\n'; // shift left by 1
 
-    std::bitset<8> me{ 0b0000'0101 }; // we need 8 bits, start with bit pattern 0000 0101
-    me.set(isHappy);      // set bit position 3 to 1 (now we have 0000 1101)
-    me.flip(isLaughing);  // flip bit 4 (now we have 0001 1101)
-    me.reset(isLaughing); // set bit 4 back to 0 (now we have 0000 1101)
+	int x{ 1 };
+	std::cout << std::bitset<8>(x) << '\n'; // print 0000 0001
 
-    std::cout << "All the bits: " << me << '\n';
-    std::cout << "I am happy: " << me.test(isHappy) << '\n';
-    std::cout << "I am laughing: " << me.test(isLaughing) << '\n';
+	x = x << 3; // shift left by 3 bits
+	std::cout << std::bitset<8>(x) << '\n'; // print 0000 1000
 
-    return 0;
+	int y{ 1 };
+	y = y << 5; // shift left by 5 bits
+	std::cout << (std::bitset<8>(x) | std::bitset<8>(y)) << '\n'; // print 0010 1000
+
+	return 0;
 }

@@ -136,5 +136,9 @@ int main()
 	std::cout << ptr << '\n'; // print the memory address of variable x
 	std::cout << *ptr << '\n'; // print the value at the memory address of variable x
 
+	int& ref{ x }; // ref is a reference to x
+	std::cout << typeid(ref).name() << '\n'; // print the value of variable x
+	std::cout << typeid(ptr).name() << '\n'; // print the memory address of variable x
+
 	return 0;
 }

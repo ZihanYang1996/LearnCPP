@@ -88,25 +88,39 @@
 //}
 
 
+//#include <iostream>
+//#include <bitset>
+//
+//int main()
+//{
+//	//std::bitset<4> bits{ 0b1100 };
+//	//std::cout << "Initial Value: " << bits << '\n';
+//	//std::cout << (bits >> 1) << '\n'; // shift right by 1
+//	//std::cout << (bits << 1) << '\n'; // shift left by 1
+//
+//	int x{ 1 };
+//	std::cout << std::bitset<8>(x) << '\n'; // print 0000 0001
+//
+//	x = x << 3; // shift left by 3 bits
+//	std::cout << std::bitset<8>(x) << '\n'; // print 0000 1000
+//
+//	int y{ 1 };
+//	y = y << 5; // shift left by 5 bits
+//	std::cout << (std::bitset<8>(x) | std::bitset<8>(y)) << '\n'; // print 0010 1000
+//
+//	return 0;
+//}
+
+
 #include <iostream>
-#include <bitset>
 
 int main()
 {
-	//std::bitset<4> bits{ 0b1100 };
-	//std::cout << "Initial Value: " << bits << '\n';
-	//std::cout << (bits >> 1) << '\n'; // shift right by 1
-	//std::cout << (bits << 1) << '\n'; // shift left by 1
+    int x{ 5 };
+    std::cout << x << '\n';  // print the value of variable x
+    std::cout << &x << '\n'; // print the memory address of variable x
 
-	int x{ 1 };
-	std::cout << std::bitset<8>(x) << '\n'; // print 0000 0001
+    std::cout << *(&x) << '\n'; // print the value at the memory address of variable x (parentheses not required, but make it easier to read)
 
-	x = x << 3; // shift left by 3 bits
-	std::cout << std::bitset<8>(x) << '\n'; // print 0000 1000
-
-	int y{ 1 };
-	y = y << 5; // shift left by 5 bits
-	std::cout << (std::bitset<8>(x) | std::bitset<8>(y)) << '\n'; // print 0010 1000
-
-	return 0;
+    return 0;
 }

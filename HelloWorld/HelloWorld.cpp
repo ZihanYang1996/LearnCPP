@@ -114,13 +114,27 @@
 
 #include <iostream>
 
+//int main()
+//{
+//    int x{ 5 };
+//    std::cout << x << '\n';  // print the value of variable x
+//    std::cout << &x << '\n'; // print the memory address of variable x
+//
+//    std::cout << *(&x) << '\n'; // print the value at the memory address of variable x (parentheses not required, but make it easier to read)
+//
+//    return 0;
+//}
+
+#include <iostream>
+
 int main()
 {
-    int x{ 5 };
-    std::cout << x << '\n';  // print the value of variable x
-    std::cout << &x << '\n'; // print the memory address of variable x
+	int x{ 5 };
+	std::cout << x << '\n';  // print the value of variable x
 
-    std::cout << *(&x) << '\n'; // print the value at the memory address of variable x (parentheses not required, but make it easier to read)
+	int* ptr{ &x }; // ptr points to x
+	std::cout << ptr << '\n'; // print the memory address of variable x
+	std::cout << *ptr << '\n'; // print the value at the memory address of variable x
 
-    return 0;
+	return 0;
 }

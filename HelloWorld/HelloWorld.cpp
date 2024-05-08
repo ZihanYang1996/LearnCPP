@@ -125,20 +125,29 @@
 //    return 0;
 //}
 
+//#include <iostream>
+//
+//int main()
+//{
+//	int x{ 5 };
+//	std::cout << x << '\n';  // print the value of variable x
+//
+//	int* ptr{ &x }; // ptr points to x
+//	std::cout << ptr << '\n'; // print the memory address of variable x
+//	std::cout << *ptr << '\n'; // print the value at the memory address of variable x
+//
+//	int& ref{ x }; // ref is a reference to x
+//	std::cout << typeid(ref).name() << '\n'; // print the value of variable x
+//	std::cout << typeid(ptr).name() << '\n'; // print the memory address of variable x
+//
+//	return 0;
+//}
+
 #include <iostream>
+#include "Date.h"
 
 int main()
 {
-	int x{ 5 };
-	std::cout << x << '\n';  // print the value of variable x
-
-	int* ptr{ &x }; // ptr points to x
-	std::cout << ptr << '\n'; // print the memory address of variable x
-	std::cout << *ptr << '\n'; // print the value at the memory address of variable x
-
-	int& ref{ x }; // ref is a reference to x
-	std::cout << typeid(ref).name() << '\n'; // print the value of variable x
-	std::cout << typeid(ptr).name() << '\n'; // print the memory address of variable x
-
-	return 0;
+	Date date{ 2024, 5, 8 };
+	date.print();
 }
